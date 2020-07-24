@@ -1,0 +1,35 @@
+{
+  "name": "rollup-plugin-chartjs-globals",
+  "version": "1.0.0",
+  "description": "Rollup plugin for Chart.js v3 extensions",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint --ignore-path .gitignore .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/kurkle/rollup-plugin-chartjs-globals"
+  },
+  "keywords": [
+    "Chart.js",
+    "output",
+    "globals",
+    "rollup",
+    "plugin",
+    "umd",
+    "esm"
+  ],
+  "author": "Jukka Kurkela",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kurkle/rollup-plugin-chartjs-globals/issues"
+  },
+  "files": [
+    "index.js"
+  ],
+  "devDependencies": {
+    "eslint-config-chartjs": "^0.2.0",
+    "eslint-config-esnext": "^4.1.0"
+  }
+}
