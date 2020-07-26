@@ -23,7 +23,8 @@ module.exports = function() {
 		name: 'chartjs-globals',
 
 		outputOptions: function(options) {
-			return chartjsGlobals(options.globals);
+			options.globals = chartjsGlobals(options.globals);
+			return options;
 		}
 	};
 };

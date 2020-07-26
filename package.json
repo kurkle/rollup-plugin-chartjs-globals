@@ -1,6 +1,6 @@
 {
   "name": "rollup-plugin-chartjs-globals",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Rollup plugin for Chart.js v3 extensions",
   "main": "index.js",
   "scripts": {
@@ -31,5 +31,6 @@
   "devDependencies": {
     "eslint-config-chartjs": "^0.2.0",
     "eslint-config-esnext": "^4.1.0"
-  }
+  },
+  "dependencies": {}
 }
