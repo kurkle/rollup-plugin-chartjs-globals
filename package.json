@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "github.com/kurkle/rollup-plugin-chartjs-globals"
+    "url": "git+https://github.com/kurkle/rollup-plugin-chartjs-globals"
   },
   "keywords": [
     "Chart.js",
@@ -25,6 +25,7 @@
   "bugs": {
     "url": "https://github.com/kurkle/rollup-plugin-chartjs-globals/issues"
   },
+  "homepage": "https://github.com/kurkle/rollup-plugin-chartjs-globals#readme",
   "files": [
     "index.js"
   ],
